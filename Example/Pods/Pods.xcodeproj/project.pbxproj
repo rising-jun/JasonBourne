@@ -10,6 +10,8 @@
 		13290B3F850E478FA982099513E7B03F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		39273E1A987E77019333ECDFF5BDC72E /* Pods-JasonBourne_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B59A1FF64968E2CB8EFD593A4E8EC64D /* Pods-JasonBourne_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E242BC58794E62EE909E8CBB04D54DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7299ECE128DDD627000A3767 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 7299ECE028DDD627000A3767 /* .gitkeep */; };
+		7299ECE328DDD659000A3767 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7299ECE228DDD659000A3767 /* ReplaceMe.swift */; };
 		72BB237C28DDBBD00029AA00 /* Bourne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BB237B28DDBBD00029AA00 /* Bourne.swift */; };
 		72BB237E28DDBBFB0029AA00 /* BournError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BB237D28DDBBFB0029AA00 /* BournError.swift */; };
 		72BB238028DDBC1D0029AA00 /* APITarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BB237F28DDBC1D0029AA00 /* APITarget.swift */; };
@@ -53,6 +55,8 @@
 		3A2C4D03C311CB7E70AD66A52F1B615A /* Pods-JasonBourne_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JasonBourne_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4122C2C808214C1627D62E701C541980 /* Pods-JasonBourne_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JasonBourne_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		465D8A8E2491B771E73DA0C3082D9513 /* Pods-JasonBourne_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JasonBourne_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7299ECE028DDD627000A3767 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		7299ECE228DDD659000A3767 /* ReplaceMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		72BB237B28DDBBD00029AA00 /* Bourne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bourne.swift; sourceTree = "<group>"; };
 		72BB237D28DDBBFB0029AA00 /* BournError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BournError.swift; sourceTree = "<group>"; };
 		72BB237F28DDBC1D0029AA00 /* APITarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITarget.swift; sourceTree = "<group>"; };
@@ -140,8 +144,8 @@
 				10E05AD552B4E4D0E274B8BB3894BCB1 /* JasonBourne-Info.plist */,
 				E292C9F14359413314A017EA1B82AF66 /* JasonBourne-prefix.pch */,
 				8BDB81619A2A9D09D458589277CA84CB /* JasonBourne-umbrella.h */,
-				0356AA5CBB30259906E0F35F374BCFB6 /* JasonBourne.debug.xcconfig */,
 				169E6DFFF6C2078E12E592671913B249 /* JasonBourne.release.xcconfig */,
+				0356AA5CBB30259906E0F35F374BCFB6 /* JasonBourne.debug.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/JasonBourne";
@@ -172,6 +176,15 @@
 			path = "Target Support Files/Pods-JasonBourne_Example";
 			sourceTree = "<group>";
 		};
+		7299ECDF28DDD627000A3767 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7299ECE028DDD627000A3767 /* .gitkeep */,
+			);
+			name = Classes;
+			path = JasonBourne/Classes;
+			sourceTree = "<group>";
+		};
 		7E01A927B056E171AB74AA057E12A7CF /* Pods-JasonBourne_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,9 +204,11 @@
 		A0B183EF6DBF0231AB8310F04940084C /* JasonBourne */ = {
 			isa = PBXGroup;
 			children = (
+				7299ECDF28DDD627000A3767 /* Classes */,
 				72BB237F28DDBC1D0029AA00 /* APITarget.swift */,
 				72BB237B28DDBBD00029AA00 /* Bourne.swift */,
 				72BB237D28DDBBFB0029AA00 /* BournError.swift */,
+				7299ECE228DDD659000A3767 /* ReplaceMe.swift */,
 				2F26D970F2C2A8B17C724DD9D3BEF3E0 /* Pod */,
 				54161153B5C690C31C964BBE702EEEE4 /* Support Files */,
 			);
@@ -360,6 +375,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7299ECE128DDD627000A3767 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +404,7 @@
 				72BB237C28DDBBD00029AA00 /* Bourne.swift in Sources */,
 				72BB238028DDBC1D0029AA00 /* APITarget.swift in Sources */,
 				72BB237E28DDBBFB0029AA00 /* BournError.swift in Sources */,
+				7299ECE328DDD659000A3767 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
