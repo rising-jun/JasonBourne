@@ -1,2 +1,4 @@
 
-// replace swift
+public class ReplaceMe {
+    
+}

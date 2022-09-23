@@ -1,0 +1,6 @@
+framework module JasonBourne {
+  umbrella header "JasonBourne-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - JasonBourne (0.1.0)
+
+DEPENDENCIES:
+  - JasonBourne (from `../`)
+
+EXTERNAL SOURCES:
+  JasonBourne:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JasonBourne: 2c9342fafee1d57ed58bad6e37ffa73ae14c29a9
+
+PODFILE CHECKSUM: 21cb008017b29f00a9ed75768419e0a093801baa
+
+COCOAPODS: 1.11.3
