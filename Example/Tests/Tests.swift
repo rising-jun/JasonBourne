@@ -3,14 +3,33 @@ import JasonBourne
 
 class Tests: XCTestCase {
     
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
+    var bourne: Bourne!
     
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
+    func test_Bourne일때_request가_호출되면_성공하고_Data를_반환하여_modelData를_업데이트한다() throws {
+        //give
+        bourne = Bourne(stubMode: .immediately)
+        var testResult = false
+        var modelData: Data?
+        let didFinish = expectation(description: #function)
+
+        //when
+        bourne.request(api: NewsAPI.topHeadlines) { result in
+            switch result {
+            case .success(let responseData):
+                testResult = true
+                modelData = responseData
+                didFinish.fulfill()
+            case .failure(let error):
+                testResult = false
+                didFinish.fulfill()
+            }
+        }
+        
+        wait(for: [didFinish], timeout: 1.0)
+        
+        //then
+        XCTAssertTrue(testResult)
+        XCTAssertNotNil(modelData)
     }
     
     func testExample() {
