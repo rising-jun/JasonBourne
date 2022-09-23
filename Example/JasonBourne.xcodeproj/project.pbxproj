@@ -215,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = B3PWYBKFUK;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = B3PWYBKFUK;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -461,6 +463,7 @@
 			baseConfigurationReference = 7A48BBD91C5C76824BE80970 /* Pods-JasonBourne_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B3PWYBKFUK;
 				INFOPLIST_FILE = JasonBourne/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -476,6 +479,7 @@
 			baseConfigurationReference = 65821A0725D65A58A85EFCA6 /* Pods-JasonBourne_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B3PWYBKFUK;
 				INFOPLIST_FILE = JasonBourne/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -490,6 +494,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DC303E63D6AE3338A9648CAC /* Pods-JasonBourne_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = B3PWYBKFUK;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -512,6 +517,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 117DB9F02B560A12152B5025 /* Pods-JasonBourne_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = B3PWYBKFUK;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
