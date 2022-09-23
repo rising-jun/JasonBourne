@@ -30,7 +30,7 @@
 		08CCB44891A2512F2E17DFE9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		117DB9F02B560A12152B5025 /* Pods-JasonBourne_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JasonBourne_Tests.release.xcconfig"; path = "Target Support Files/Pods-JasonBourne_Tests/Pods-JasonBourne_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		21473455EBB27593ED4A0BB4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		5D1B0A2979888EC6910D2F78 /* JasonBourne.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JasonBourne.podspec; path = ../JasonBourne.podspec; sourceTree = "<group>"; };
+		5D1B0A2979888EC6910D2F78 /* JasonBourne.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JasonBourne.podspec; path = ../JasonBourne.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* JasonBourne_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JasonBourne_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
