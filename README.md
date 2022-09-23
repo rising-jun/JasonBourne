@@ -22,7 +22,7 @@
 >
 > it support APITarget, so you can use attach parameter, Header easily more than URLSession
 >
-- Third, ThreadSafety! Reponse Closure must excute in SerialQueue!
+### Third, ThreadSafety! Reponse Closure must excute in SerialQueue!
 >
 > Like Alamofire.
 >
@@ -123,6 +123,11 @@ extension NewsAPI: APITarget {
 
 its done! Thank you.
 
+## Feature Update
+1. DownLoadTask - for DiskCaching
+2. async, await
+
+i'm planing!
 
 ## Requirements
 
