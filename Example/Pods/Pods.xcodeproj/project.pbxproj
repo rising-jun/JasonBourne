@@ -10,7 +10,6 @@
 		13290B3F850E478FA982099513E7B03F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		39273E1A987E77019333ECDFF5BDC72E /* Pods-JasonBourne_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B59A1FF64968E2CB8EFD593A4E8EC64D /* Pods-JasonBourne_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E242BC58794E62EE909E8CBB04D54DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		4DA2C5F1DC6D3C77FDD5374A201863E4 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A99DC9F90BC89175619E23A65621A37 /* ReplaceMe.swift */; };
 		72BB237C28DDBBD00029AA00 /* Bourne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BB237B28DDBBD00029AA00 /* Bourne.swift */; };
 		72BB237E28DDBBFB0029AA00 /* BournError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BB237D28DDBBFB0029AA00 /* BournError.swift */; };
 		72BB238028DDBC1D0029AA00 /* APITarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BB237F28DDBC1D0029AA00 /* APITarget.swift */; };
@@ -47,7 +46,6 @@
 		10E05AD552B4E4D0E274B8BB3894BCB1 /* JasonBourne-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JasonBourne-Info.plist"; sourceTree = "<group>"; };
 		169E6DFFF6C2078E12E592671913B249 /* JasonBourne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JasonBourne.release.xcconfig; sourceTree = "<group>"; };
 		18883039587E54DDD327B82443F7664F /* Pods-JasonBourne_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JasonBourne_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1A99DC9F90BC89175619E23A65621A37 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JasonBourne/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		1DA25AF9441FBD8BD8C7AA03943E269C /* Pods-JasonBourne_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JasonBourne_Tests-dummy.m"; sourceTree = "<group>"; };
 		203C63EBC9A350876AA8551E610F9290 /* Pods-JasonBourne_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JasonBourne_Example-Info.plist"; sourceTree = "<group>"; };
 		2DFFE53282CBD655A6737EB27CBE53E7 /* Pods-JasonBourne_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JasonBourne_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -196,7 +194,6 @@
 				72BB237F28DDBC1D0029AA00 /* APITarget.swift */,
 				72BB237B28DDBBD00029AA00 /* Bourne.swift */,
 				72BB237D28DDBBFB0029AA00 /* BournError.swift */,
-				1A99DC9F90BC89175619E23A65621A37 /* ReplaceMe.swift */,
 				2F26D970F2C2A8B17C724DD9D3BEF3E0 /* Pod */,
 				54161153B5C690C31C964BBE702EEEE4 /* Support Files */,
 			);
@@ -388,7 +385,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A46C01129299CDBC16080A75139A911 /* JasonBourne-dummy.m in Sources */,
-				4DA2C5F1DC6D3C77FDD5374A201863E4 /* ReplaceMe.swift in Sources */,
 				72BB237C28DDBBD00029AA00 /* Bourne.swift in Sources */,
 				72BB238028DDBC1D0029AA00 /* APITarget.swift in Sources */,
 				72BB237E28DDBBFB0029AA00 /* BournError.swift in Sources */,
