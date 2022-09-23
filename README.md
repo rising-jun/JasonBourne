@@ -22,9 +22,107 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 >
 > it support APITarget, so you can use attach parameter, Header easily more than URLSession
 >
+- Third, ThreadSafety! Reponse Closure must excute in SerialQueue!
 >
+> Like Alamofire.
+>
+
 #### Actually it hasn't any relationship with Json Bourne
 
+### How to use?
+- in Service class
+```swift
+import JasonBourne
+
+final class NewsService {
+    private var bourne: Bourne!
+    
+    func fetchNews() {
+        bourne = Bourne()
+        bourne.request(api: NewsAPI.topHeadlines) { result in
+            switch result {
+            case .success(let responseData):
+                print(String(data: responseData, encoding: .utf8))
+            case .failure(let error):
+                print(error)
+            }
+        }
+    }
+    
+    func fetchFakeNews() {
+        bourne = Bourne(stubMode: .immediately)
+        bourne.request(api: NewsAPI.topHeadlines) { result in
+            switch result {
+            case .success(let responseData):
+                print(String(data: responseData, encoding: .utf8))
+            case .failure(let error):
+                print(error)
+            }
+        }
+    }
+}
+```
+- When you want to StubMode, `Bourne(stubMode: .immediately)`
+
+in TargetAPI
+```swift
+import JasonBourne
+
+public enum NewsAPI {
+    case topHeadlines
+}
+extension NewsAPI: APITarget {
+    public var baseURL: URL {
+        switch self {
+        case .topHeadlines:
+            return URL(string: "BaseURL")!
+        }
+    }
+    
+    public var path: String {
+        switch self {
+        case .topHeadlines:
+            return "/top-headlines"
+        }
+    }
+    
+    public var method: APIMethod {
+        switch self {
+        case .topHeadlines:
+            return .get
+        }
+    }
+    
+    public var task: Parameter {
+        switch self {
+        case .topHeadlines:
+            let params: [String: String] = [
+                "country": "kr",
+                "apiKey": "private"
+            ]
+            return .requestParameters(parameters: params)
+        }
+    }
+    
+    public var headers: [String: String]? {
+        switch self {
+        case .topHeadlines:
+            return ["Content-Type": "application/json",
+                    "Accept": "application/json"]
+        }
+    }
+    
+    public var mockData: Data {
+        switch self {
+        case .topHeadlines:
+            return Data()
+        }
+    }
+}
+```
+- the way is simillar way with Moya.
+
+its done! Thank you.
 
 
 ## Requirements
