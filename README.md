@@ -7,6 +7,7 @@
 
 ## Intro
 <img width="650" alt="스크린샷 2022-09-23 오후 7 46 38" src="https://user-images.githubusercontent.com/62687919/191944772-aae07b70-d377-4ab8-b2e8-1cf1b2196df3.png">
+
 ### This is JsonBourne
 
 ## it is Network Library, What i usually use networking features.
@@ -123,7 +124,7 @@ extension NewsAPI: APITarget {
 
 its done! Thank you.
 
-## Feature Update
+## Planning Feature Update
 1. DownLoadTask - for DiskCaching
 2. async, await
 
