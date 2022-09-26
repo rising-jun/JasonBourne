@@ -179,6 +179,9 @@
 		7299ECDF28DDD627000A3767 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				72BB237F28DDBC1D0029AA00 /* APITarget.swift */,
+				72BB237B28DDBBD00029AA00 /* Bourne.swift */,
+				72BB237D28DDBBFB0029AA00 /* BournError.swift */,
 				7299ECE028DDD627000A3767 /* .gitkeep */,
 				72733E4928E17883004D7344 /* ReplaceMe.swift */,
 			);
@@ -206,9 +209,6 @@
 			isa = PBXGroup;
 			children = (
 				7299ECDF28DDD627000A3767 /* Classes */,
-				72BB237F28DDBC1D0029AA00 /* APITarget.swift */,
-				72BB237B28DDBBD00029AA00 /* Bourne.swift */,
-				72BB237D28DDBBFB0029AA00 /* BournError.swift */,
 				2F26D970F2C2A8B17C724DD9D3BEF3E0 /* Pod */,
 				54161153B5C690C31C964BBE702EEEE4 /* Support Files */,
 			);
