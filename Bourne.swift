@@ -7,7 +7,7 @@
 
 import Foundation
 
-open class Bourne {
+public class Bourne {
     private let session = URLSession.shared
     private let stubMode: ResponseSpeed
     
