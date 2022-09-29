@@ -17,7 +17,7 @@
 > 
 > So, i implemented Test with mock features.
 >
-### Second. comfortable to use more URLSession
+### Second. comfortable to use more than URLSession
 > 
 > it using all network feature to use URLSession.
 >
@@ -62,7 +62,7 @@ final class NewsService {
     }
 }
 ```
-- When you want to StubMode, `Bourne(stubMode: .immediately)`
+- If you want to StubMode, `Bourne(stubMode: .immediately)`
 
 in TargetAPI
 ```swift
