@@ -10,7 +10,7 @@
 
 ### This is JsonBourne
 
-## it is Network Library, What i usually use networking features.
+## This is Network Library, What i usually use networking features.
 ### First. Support StubMode with MockData
 >
 > it can be more testable.
